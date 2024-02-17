@@ -1,0 +1,114 @@
+body {
+    background-color: #328f8a;
+    background-image: linear-gradient(45deg,#328f8a,#08ac4b);
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .navbar-brand img{
+    height: 40px;
+    border-radius: 80px;
+  }
+  .navbar{
+    background-color: #5dbdb8;
+    background-image: linear-gradient(45deg,#4dc1bb,#16c55f);
+  }
+  .items ul li{
+    background-color: #5dbdb8;
+    background-image: linear-gradient(45deg,#4dc1bb,#16c55f);
+
+  }
+
+ .list-group-item span{
+ text-align: center;
+  }
+.welcome{
+    text-align: center;
+    margin-top: 50px;
+  }
+  body {
+    background-color: #328f8a; /* Background color of your choice */
+    background-image: linear-gradient(45deg,#328f8a,#08ac4b); /* Optional gradient */
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0; /* Remove default margin for better alignment */
+  }
+  
+  .clock-container {
+    position: relative;
+    width: 250px; /* Adjust size as needed */
+    height: 100px; /* Adjust height as needed */
+    margin: 50px auto; /* Center the clock */
+    background-color: #f5f5f5;
+    border-radius: 5px; /* Optional rounded corners */
+    padding: 20px;
+transition: 2s;
+  }
+  
+  .clock-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .clock-container:hover {
+    scale: 1.1;
+
+  }
+  .digit {
+    display: inline-block;
+    font-size: 30px; /* Adjust font size as needed */
+    font-weight: bold;
+    color: black; /* Adjust color as needed */
+    background-color: white; /* Adjust background color if needed */
+    padding: 5px; /* Adjust padding as needed */
+    border-radius: 5px; /* Optional rounded corners */
+  }
+  
+  .colon {
+    font-size: 20px; /* Adjust font size as needed */
+    margin: 0 5px; /* Adjust spacing as needed */
+  }
+  
+  .am-pm {
+    font-size: 20px; /* Adjust font size as needed */
+    margin-left: 5px; /* Adjust spacing as needed */
+  }
+  
+ .card {
+    transition: box-shadow 0.3s ease;
+transition: 2s;
+
+  }
+  .card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    scale: 1.1;
+   
+}
+
+.quo{
+  font-weight: 900;
+}
+.goto{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.todo-btn{
+  background-color: #16c55f;
+  border-radius: 75px;
+  padding: 10px;
+  
+}
+
+.todo-btn:hover{
+  background-color: #08ac4b;
+transition: 1s;
+
+  scale: 1.1;
+
+}
+.todo-a {
+  color: white;
+  text-decoration: none;
+}

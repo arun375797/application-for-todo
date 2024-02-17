@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container box1">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#"><img src="data:image/png;base64,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" alt=""></a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Log In</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="todo/todo.html">To-Do app</a>
+                  </li>
+                  
+              
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    
+
+
+          <!-- main section  -->
+
+    
+
+          <div class="container">
+            <h1 class="welcome">Welcome to To do app <span><div class="spinner-border" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div></span></h1>
+          
+          </div>
+    </div>
+    <div class="clock-container">
+      <div class="clock-display">
+        <span class="digit hour-tens"></span>
+        <span class="digit hour-ones"></span>
+        <span class="colon">:</span>
+        <span class="digit minute-tens"></span>
+        <span class="digit minute-ones"></span>
+        <span class="colon">:</span>
+        <span class="digit second-tens"></span>
+        <span class="digit second-ones"></span>
+        <span class="am-pm"></span>
+      </div>
+    </div>
+
+<div class="goto container ">
+  <h1>Go And Start To Do Tasks</h1>
+  <button class="todo-btn"><a class="todo-a" href="todo/todo.html">Go To-Do App</a></button>
+</div>
+ 
+
+<div class="container d-flex gap-5">
+  <div class="card" style="width: 18rem;">
+    <img src="https://images.unsplash.com/photo-1501139083538-0139583c060f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGltZXxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">“Prioritizing is an important aspect of productivity. Listed tasks should be things that matter: things that are in alignment with your objectives and do not distract you from what you really should be doing” – <span class="quo">Romuald Andrade</span> </p>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="https://images.unsplash.com/photo-1518281420975-50db6e5d0a97?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRpbWV8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">“It's being here now that's important. There's no past and there's no future. Time is a very misleading thing. All there is ever, is the now. We can gain experience from the past, but we can't relive it; and we can hope for the future, but we don't know if there is one.” –  <span class="quo">George Harrison</span> </p>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="https://plus.unsplash.com/premium_photo-1682098383598-85c79e94ab7f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHRpbWV8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">At the end of your life, you will never regret not having passed one more test, not winning one more verdict or not closing one more deal. You will regret time not spent with a husband, a friend, a child, or a parent.” –  <span class="quo">Barbara Bush</span> </p>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="https://media.istockphoto.com/id/1475628937/photo/mature-man-talking-on-the-phone-and-checking-the-time-on-his-wristwatch-at-office.webp?b=1&s=170667a&w=0&k=20&c=2DrICduMvAwSSXvavgHiP2r_lkLryaH4ti3Dhn-3oAM=" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">“Determine never to be idle. No person will have occasion to complain of the want of time who never loses any. It is wonderful how much can be done if we are always doing.” –  <span class="quo">Thomas Jefferson</span>  </p>
+    </div>
+  </div>
+</div>
+
+    
+
+<script src="home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title> CSS Login Screen Tutorial </title>
+<link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <body>
+    <div class="login-page">
+      <h1 style="text-align: center; font-size: 40px; font-weight: 900;">Login To To-Do App</h1>
+      <div class="form">
+        <div class="login">
+          <div class="login-header">
+            <h3>LOGIN</h3>
+            <p>Please enter your credentials to login.</p>
+          </div>
+        </div>
+        <form class="login-form" >
+          <span id="err1"></span>
+          <input type="text" id="user" placeholder="username"/>
+          <input type="password" id="pass" placeholder="password"/>
+          <span id="err2"></span>
+          <button onclick="return validate(display)">login</button>
+          <p class="message">Not registered? <a href="#">Create an account</a></p>
+        </form>
+      </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</body>
+</html>
